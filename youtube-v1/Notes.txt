@@ -1,0 +1,182 @@
+
+Websites 
+----- 
+  1. static websites 
+      v1
+  2. dynamic websites 
+      v2 
+
+Webapps 
+----
+  * deals with huge chunk of data 
+  examples: 
+    gmail.com 
+    cricinfo.com 
+    instagram.com 
+    facebook.com
+    twitter.com
+    linkedin.com 
+    youtube.com 
+    netflix.com 
+    hotstar.com 
+  
+  1. Server Side Rendering Apps (SSR Apps)
+  2. Client Side Rendering Apps (CSR Apps)
+      3 projects 
+
+Browser 
+----
+  HTML Renderer + CSS Parser + JS Engine = Browser Core 
+
+  Types 
+  ----- 
+    1. Ever-green Browser 
+        * the browser that updates itself automatically 
+        * all modern browsers 
+
+    2. Non-ever-green browser 
+        * will not update themeselves 
+        * IE 10, IE 11
+
+Browser History 
+---------------
+  Netscape Navigator
+  Microsoft IE
+
+  1994-2008: NN 
+  1995-2015: MS-IE
+  1995: Opera 
+
+  2003: Apple Safari 
+        on Webkit Browser Core [open sourced]
+
+  2004: Mozilla Firefox
+        on Mozilla Browser Core [open sourced]
+
+  2008: Google Chrome 
+        on Chromium Browser Core [open sourced] = Webkit + Mozilla + JS Engine 
+
+  2013: Opera 
+        on Chromium Browser Core 
+
+  2015: MS-Edge
+        on Chromium Browser Core 
+
+  2019: Brave 
+        on Chromium Browser Core 
+
+
+Popular Browser Families 
+---
+  1. Chromium Core 
+      ( -webkit )
+  2. Webkit Core
+      ( -webkit ) 
+  3. Mozilla Core
+      ( -mz ) 
+
+Types of Layout
+--------
+  1. Fixed Layout 
+  2. Fluid Layout 
+
+
+HTML 
+--
+  * Standard
+  * Structural Layer
+
+  Types of Elements 
+  --
+    1. Block Level Elements 
+        h1 to h6, div, p
+
+    2. Inline Elements 
+        button, span, a
+
+1. Semantic elements 
+    header, footer, main, nav, article, section, aside, a, button, img, p, 
+
+2. Non-semantic elements 
+    div, span 
+
+
+CSS 
+---
+  * Presentation Layer
+
+JS 
+---
+  * Interation Layer 
+
+
+===
+Standard Recommended Coding Practices (100 marks)
+---
+  1. properly formatted code (indentation of 2 spaces and line breaks)
+  2. code comments (20%)
+  3. proper naming conventions 
+  4. 100% valid code
+
+----
+
+Validating HTML using w3c validator 
+--
+
+Naming Conventions & Casing 
+----
+  Casing Types 
+  --------
+    1. PascalCase 
+        * Recommended for Object Oriented Program's classes 
+        * also Recommended for Interface in Java & TypeScript 
+
+        examples 
+        ---
+          class CarDetails {
+
+          }
+
+          interface Employee {
+
+          }
+
+    2. camelCase 
+        * Recommended for variables, const, functions, methods in JS & TS 
+        * Recommended for id's of html elements 
+
+        examples 
+        -----
+          var myCar = 'BMW';
+
+          function getCarInfo() {
+            //....
+          }
+    
+    3. kebab-case
+        * Recommended for URLs 
+        * Recommended for file names, folder names, assets in front end projects  
+        * Recommended for css classes 
+        * okay for id's of html elements if your architect says accepts
+
+        examples 
+        -----
+          btn-primary
+          slideshow-container 
+          youtube-logo.png 
+
+    4. snake_case 
+        * never ever use this. 
+        * okay for const in JS & TS if architect accepts
+
+        examples
+        ---
+          const MAX_STUDENTS_PER_CLASS = 30;
+
+
+      
+
+      
+
+
+
