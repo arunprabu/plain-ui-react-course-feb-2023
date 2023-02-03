@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- will explain later -->
+  <meta charset="UTF-8">
+  <!-- will explain during responsive css -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Page</title>
+</head>
+
+<body>
+
+  <!-- header starts here -->
+  <header>
+    <a href="./index.html">
+      <img src="./assets/images/yt-logo.png" alt="YouTube Logo" width="120"></a>
+    <input type="text" placeholder="Search">
+    <button type="button">Search</button>
+    <button type="button">Mic</button>
+    <button type="button">Sign in</button>
+
+    <ul>
+      <li><a href="./about-us.html">About Us</a></li>
+      <li><a href="./contact-us.html">Contact Us</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <h1>Video Page!</h1>
+
+    <div id="mainVideo">
+      <!-- learn about video -->
+      <video width="850" height="650" controls>
+        <source src="./assets/videos/yt-video.mp4" type="video/mp4">
+      </video>
+      <h2>Natgeo - Bear and Birds Video</h2>
+      <div id="videoMeta">
+        <!-- TODO: Refer Youtube Video page and have the elements that are under the video title -->
+      </div>
+
+      <div id="videoDescription">
+        <p>
+          <span>4.5M Views</span>
+          <span>6 months ago</span>
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate possimus iure autem veritatis magnam?
+          Dignissimos, veniam tempora rem tempore similique incidunt officiis saepe, in corrupti, vitae modi eius
+          praesentium officia!</p>
+      </div>
+    </div>
+
+    <aside>
+      <!-- sidebar video #1 starts -->
+      <div>
+        <a href="#">
+          <img src="https://via.placeholder.com/175x120/09f/fff" alt="video #1">
+          <div>
+            <h2>Football Highlights of 2022</h2>
+            <a href="#">Channel B</a>
+            <p>
+              <span>1M views</span>
+              <span>2 weeks ago</span>
+            </p>
+          </div>
+        </a>
+      </div>
+      <!-- sidebar video #1 ends -->
+    </aside>
+  </main>
+
+  <footer>
+    <hr>
+    <p>Copyright 2023 | Arun</p>
+  </footer>
+
+
+</body>
+
+</html>
