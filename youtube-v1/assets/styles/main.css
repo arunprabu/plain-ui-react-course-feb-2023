@@ -1,6 +1,5 @@
 /* External Styles */
 /* element selector */
-
 /* header styles begin here */
 header {
   padding: 10px;
@@ -13,6 +12,19 @@ header {
   padding: 4px 10px;
   width: 400px;
 }
+
+#primaryNav{
+  display: inline-block;
+}
+#primaryNav ul{
+  padding: 0;
+}
+
+#primaryNav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
 /* header styles ends here */
 
 /* footer styles starts here */

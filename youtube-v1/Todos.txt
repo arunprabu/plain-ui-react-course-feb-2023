@@ -2,4 +2,7 @@
 2. explore table tag in about-us.html (also explore rowspan and colspan)
 3. explore minlength and maxlength for phone number and also for textarea
 4. complete meta with desc and keywords for all pages 
+5. learn about Attribute Selector -- use attribut selector in contact-us.html page -- in form inputs 
+6. learn about Pseudo Selector - try mouseover effect styles in suggested topics 
+
 
