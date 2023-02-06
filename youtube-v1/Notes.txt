@@ -73,7 +73,7 @@ Popular Browser Families
   2. Webkit Core
       ( -webkit ) 
   3. Mozilla Core
-      ( -mz ) 
+      ( -moz ) 
 
 Types of Layout
 --------
@@ -176,7 +176,50 @@ Naming Conventions & Casing
 
       
 ----
+CSS 
+---
+  Cascading Style Sheets 
+  -----------
+  Syntax 
+  ---
+    <selector> {
+      /* style defn */ 
+      property: property-value;
+    }
+
+  Types of Styles 
+  ----  
+    1. Inline Styles 
+        * written on the elements directly 
+
+        disadv 
+        --- 
+          1. styles are not re-usable in other elements 
+          2. styles are not re-usable in other pages 
+          3. Bloating HTML files with css styles (mixing Structural + presentation layer)
+
+    2. Internal Styles 
+        * written inside html file within <style></style>
+        * styles are page-wide 
+        
+        Disadv 
+        ---
+          1. styles are not re-usable in other pages
+          2. Bloating HTML files with css styles (mixing Structural + presentation layer)
+
+    3. External Styles 
+        * coded in separate css file (i.e called as stylesheet with extn .css)
+        * then, we have to link the css file wtih the html using <link> tag 
 
 
 
+  CSS Selectors 
+  ----
+    1. Element Selector / Type Selector 
+    2. Id Selector 
+    3. Class Selector 
+    4. Attribute Selector (TODO)
+    5. Universal Selector 
+    6. Pseudo Selector (TODO)
+    For more Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 

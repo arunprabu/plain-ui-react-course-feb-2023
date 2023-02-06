@@ -1,3 +1,5 @@
 1. Refer Youtube Video page and have the elements that are under the video title in video.html 
 2. explore table tag in about-us.html (also explore rowspan and colspan)
 3. explore minlength and maxlength for phone number and also for textarea
+4. complete meta with desc and keywords for all pages 
+

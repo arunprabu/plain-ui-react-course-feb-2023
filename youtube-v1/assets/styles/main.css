@@ -1,0 +1,22 @@
+/* External Styles */
+/* element selector */
+
+/* header styles begin here */
+header {
+  padding: 10px;
+}
+
+/* class selector */
+.search-input {
+  border: 1px solid gray;
+  border-radius: 16px;
+  padding: 4px 10px;
+  width: 400px;
+}
+/* header styles ends here */
+
+/* footer styles starts here */
+footer {
+  text-align: center;
+}
+/* footer styles ends here */
