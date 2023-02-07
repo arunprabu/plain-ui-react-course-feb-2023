@@ -32,3 +32,46 @@ footer {
   text-align: center;
 }
 /* footer styles ends here */
+
+/* contact form styles start here */
+.contact-form{
+  border: solid 1px gray;
+  width: 35%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.contact-form .field-wrapper{
+  padding: 16px;
+}
+
+.contact-form .field-wrapper label{
+  width: 130px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+}
+
+.contact-form .field-wrapper input, .contact-form .field-wrapper textarea{
+  width: 300px;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.contact-form .buttons-wrapper{
+  margin-left: 150px;
+}
+
+.contact-form .buttons-wrapper button{
+  padding: 10px 26px;
+  border-radius: 6px;
+}
+
+.contact-form .buttons-wrapper button[type='reset']{
+  background-color: rgb(248, 163, 130);
+}
+.contact-form .buttons-wrapper button[type='submit'] {
+  background-color: greenyellow;
+}
+/* contact form styles end here */

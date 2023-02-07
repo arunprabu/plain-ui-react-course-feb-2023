@@ -4,5 +4,5 @@
 4. complete meta with desc and keywords for all pages 
 5. learn about Attribute Selector -- use attribute selector in contact-us.html page -- in form inputs 
 6. learn about Pseudo Selector - try mouseover effect styles in suggested topics 
-
-
+7. remove bullet points from footer menu 
+8. use font awesome in video details for like, dislike, share buttons 
