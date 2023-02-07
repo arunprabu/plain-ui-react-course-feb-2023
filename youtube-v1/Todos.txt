@@ -6,3 +6,5 @@
 6. learn about Pseudo Selector - try mouseover effect styles in suggested topics 
 7. remove bullet points from footer menu 
 8. use font awesome in video details for like, dislike, share buttons 
+9. have h1 with text-shadow and also center aligned text 
+
