@@ -12,14 +12,15 @@ HTML, CSS
   10. complete home page -- make it as same as YouTube's home page 
   11. complete video page -- make it as same as YouTube's video page 
   12. Animated Page Elements in CSS (also refer https://animate.style/)
+  13. try sticky Positioning for suggested topics 
 Note: Todo #10 and #11 will be reviewed on Monday
 
 
 SASS (no need to incorporate in your project - just learn the following)
 -------
-  13. Reusable Patterns with Mixins in SASS 
-  14. Extensions in SASS 
-  15. Learn about LESS 
+  14. Reusable Patterns with Mixins in SASS 
+  15. Extensions in SASS 
+  16. Learn about LESS 
 
 
 

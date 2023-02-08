@@ -223,8 +223,6 @@ CSS
     6. Pseudo Selector (TODO)
     For more Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
-Box Model 
-CSS Positioning 
 
 Responsive CSS 
 

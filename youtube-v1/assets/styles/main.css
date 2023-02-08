@@ -6,7 +6,7 @@
 }
 
 /* global selector */
-*{
+* {
   font-family: Roboto;
 }
 
@@ -24,10 +24,10 @@ header {
   width: 400px;
 }
 
-#primaryNav{
+#primaryNav {
   display: inline-block;
 }
-#primaryNav ul{
+#primaryNav ul {
   padding: 0;
 }
 
@@ -44,70 +44,127 @@ footer {
 }
 /* footer styles ends here */
 
-
 /* grid layout for home page */
 
-
-
 /* contact form styles start here */
-.contact-form{
+.contact-form {
   border: solid 1px gray;
   width: 35%;
   margin: 0 auto;
   padding: 25px;
-  box-shadow: 6px 6px 6px 1px #524E5C;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+  box-shadow: 6px 6px 6px 1px #524e5c;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
 }
 
-.contact-form .field-wrapper{
+.contact-form .field-wrapper {
   padding: 16px;
 }
 
-.contact-form .field-wrapper label{
+.contact-form .field-wrapper label {
   width: 130px;
   display: inline-block;
   vertical-align: top;
   margin-top: 8px;
 }
 
-.contact-form .field-wrapper input, .contact-form .field-wrapper textarea{
+.contact-form .field-wrapper input,
+.contact-form .field-wrapper textarea {
   width: 300px;
   display: inline-block;
   padding: 8px 12px;
   border-radius: 6px;
 }
 
-.contact-form .buttons-wrapper{
+.contact-form .buttons-wrapper {
   margin-left: 150px;
 }
 
-.contact-form .buttons-wrapper button{
+.contact-form .buttons-wrapper button {
   padding: 10px 26px;
   border-radius: 6px;
 }
 
-.contact-form .buttons-wrapper button[type='reset']{
+.contact-form .buttons-wrapper button[type="reset"] {
   background-color: rgb(248, 163, 130);
 }
-.contact-form .buttons-wrapper button[type='submit'] {
+.contact-form .buttons-wrapper button[type="submit"] {
   background-color: greenyellow;
 }
 /* contact form styles end here */
 
 /* about page */
-.about-jumbotron{
-  background: url('../images/blurred-bg-about.webp') no-repeat;
+.about-jumbotron {
+  background: url("../images/blurred-bg-about.webp") no-repeat;
   background-size: cover;
   height: 560px;
 }
-.about-jumbotron h1{
+.about-jumbotron h1 {
   color: #fff;
   text-align: center;
-  padding-top:15%;
+  padding-top: 15%;
   font-size: 46px;
 }
 .about-jumbotron p {
   color: #fff;
   text-align: center;
   font-size: 24px;
+}
+
+/* responsive css */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+  #primaryNav {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: orange;
+  }
+
+  #primaryNav {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+
+  #primaryNav {
+    display: block;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: pink;
+  }
+
+  #primaryNav {
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: rgb(252, 187, 252);
+  }
+
+  #primaryNav {
+    display: block;
+  }
 }
