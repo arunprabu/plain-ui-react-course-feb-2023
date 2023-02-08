@@ -1,16 +1,26 @@
-1. Refer Youtube Video page and have the elements that are under the video title in video.html 
-2. explore table tag in about-us.html (also explore rowspan and colspan)
-3. explore minlength and maxlength for phone number and also for textarea
-4. complete meta with desc and keywords for all pages 
-5. learn about Attribute Selector -- use attribute selector in contact-us.html page -- in form inputs 
-6. learn about Pseudo Selector - try mouseover effect styles in suggested topics 
-7. remove bullet points from footer menu 
-8. use font awesome in video details for like, dislike, share buttons 
-9. have h1 with text-shadow and also center aligned text 
-10. complete home page -- make it as same as YouTube's home page 
-11. complete video page -- make it as same as YouTube's video page 
-
+HTML, CSS
+----------
+  1. Refer Youtube Video page and have the elements that are under the video title in video.html 
+  2. explore table tag in about-us.html (also explore rowspan and colspan)
+  3. explore minlength and maxlength for phone number and also for textarea
+  4. complete meta with desc and keywords for all pages 
+  5. learn about Attribute Selector -- use attribute selector in contact-us.html page -- in form inputs 
+  6. learn about Pseudo Selector - try mouseover effect styles in suggested topics 
+  7. remove bullet points from footer menu 
+  8. use font awesome in video details for like, dislike, share buttons 
+  9. have h1 with text-shadow and also center aligned text 
+  10. complete home page -- make it as same as YouTube's home page 
+  11. complete video page -- make it as same as YouTube's video page 
+  12. Animated Page Elements in CSS (also refer https://animate.style/)
 Note: Todo #10 and #11 will be reviewed on Monday
+
+
+SASS (no need to incorporate in your project - just learn the following)
+-------
+  13. Reusable Patterns with Mixins in SASS 
+  14. Extensions in SASS 
+  15. Learn about LESS 
+
 
 
 
