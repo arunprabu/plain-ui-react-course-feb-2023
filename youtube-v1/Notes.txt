@@ -217,9 +217,17 @@ CSS
   ----
     1. Element Selector / Type Selector 
     2. Id Selector 
-    3. Class Selector 
+    3. Class Selector [Recommended]
     4. Attribute Selector (TODO)
     5. Universal Selector 
     6. Pseudo Selector (TODO)
     For more Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
+Box Model 
+CSS Positioning 
+
+Responsive CSS 
+
+SASS 
+
+WCAG 
