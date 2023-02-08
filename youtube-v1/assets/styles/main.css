@@ -1,4 +1,15 @@
 /* External Styles */
+/* embedding font*/
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+/* global selector */
+*{
+  font-family: Roboto;
+}
+
 /* element selector */
 /* header styles begin here */
 header {

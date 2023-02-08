@@ -7,4 +7,12 @@
 7. remove bullet points from footer menu 
 8. use font awesome in video details for like, dislike, share buttons 
 9. have h1 with text-shadow and also center aligned text 
+10. complete home page -- make it as same as YouTube's home page 
+11. complete video page -- make it as same as YouTube's video page 
+
+Note: Todo #10 and #11 will be reviewed on Monday
+
+
+
+
 
