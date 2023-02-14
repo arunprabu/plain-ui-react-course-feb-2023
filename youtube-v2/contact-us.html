@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- will explain later -->
+  <meta charset="UTF-8">
+  <!-- will explain during responsive css -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us</title>
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+
+</head>
+
+<body>
+
+  <!-- header starts here -->
+  <header>
+    <a href="./index.html">
+      <img src="./assets/images/yt-logo.png" alt="YouTube Logo" width="120"></a>
+    <input type="search" placeholder="Search" class="search-input">
+    <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <button type="button"><i class="fa-solid fa-microphone"></i></button>
+    <button type="button"><i class="fa-solid fa-user"></i> Sign in</button>
+  
+    <nav id="primaryNav">
+      <ul>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact us Page!</h1>
+
+    <form class="contact-form">
+      <div class="field-wrapper">
+        <label for="nameInput">Enter your Name:</label>
+        <input type="text" id="nameInput" placeholder="Enter your name" required>
+      </div>
+
+      <div class="field-wrapper">
+        <label for="phoneInput">Enter your Phone:</label>
+        <input type="number" id="phoneInput" placeholder="Enter your Phone" required>
+      </div>
+
+      <div class="field-wrapper">
+        <label for="emailInput">Enter your E-Mail:</label>
+        <input type="email" id="emailInput" placeholder="Enter your E-Mail" required>
+      </div>
+
+      <div class="field-wrapper">
+        <label for="queryInput">Enter your Query:</label>
+        <textarea id="queryInput" rows="5" cols="50" required></textarea>
+      </div>
+
+      <div class="buttons-wrapper">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+      <!-- TODO: explore minlength and maxlength for phone number and also for textarea -->
+    </form>
+
+  </main>
+
+  <footer>
+    <hr>
+    <nav id="footerNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about-us.html">About Us</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p>Copyright 2023 | Arun</p>
+  </footer>
+
+</body>
+
+</html>

@@ -267,5 +267,6 @@ To become React JS Dev
       JS Advanced [TODO]
 
       JS Latest (ES2015) [Will learn]
+      HTML5 JS API [will learn]
         
 
