@@ -29,7 +29,23 @@ JS (explore most of them in jsbin)
   2. explore array's methods such as 
     concat, fill, flat, join, shift, slice, splice, sort, unshift (Review ON Tuesday)
   3. learn about while and do while
-  4. 
+  4. Have the following data 
+      const myProfile = {
+        fullName: 'Steve Smith',
+        role: 'Batsman',
+        matches: 2,
+        rank: 2
+      }
+    Try for...in loop 
+      if the rank is 2 then, display 'No 2 Batsman in the World!' in log 
+  5. Explore Date and its' methods 
+      learn about any 5-6 methods
+  6. Explore Math and its' methods 
+      random, ceil, floor, min, max, round, 
+  7. Array methods filter, find (Prereq: arrow fn)
+
+
+
 
 --
 
