@@ -43,6 +43,11 @@ JS (explore most of them in jsbin)
   6. Explore Math and its' methods 
       random, ceil, floor, min, max, round, 
   7. Array methods filter, find (Prereq: arrow fn)
+  8. Learn about Null Coalescing (??)
+  9. Explore forEach , filter , find , every,  reduce ,
+     new Math methods, new Number methods, new Global methods. (ES2015)
+
+
 
 
 
