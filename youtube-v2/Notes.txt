@@ -249,24 +249,20 @@ To become React JS Dev
 --
   Prereq: 
   --
-    JS 
-      JS Basics [Will learn]
-        variables
-        Datatypes 
-        operators 
-        Array 
-        Object 
-        window object 
-        conditionals 
-        looping 
-        functions 
-        event object 
-        handling events 
-          
-      JS Intermediate [TODO]
-      JS Advanced [TODO]
 
-      JS Latest (ES2015) [Will learn]
-      HTML5 JS API [will learn]
-        
+    HTML5 JS API [will learn]
+
+Generator Fn 
+Sets, Maps
+JavaScript promises and Fetch 
+Import and Export (in ReactJS)
+
+Drag and Drop API	
+Web Storage Options	
+Geolocation	
+Messaging 
+Custom Element 
+
+
+
 
