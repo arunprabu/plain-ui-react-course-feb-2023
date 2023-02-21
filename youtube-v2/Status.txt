@@ -1,0 +1,21 @@
+
+Check with the following participants on Monday 
+---
+from Harshitha Patel Deva to All Participants:
+done but laptop issue today
+from Lakshmi Narasimman V to All Participants:
+having some issues will complete it today 
+from Sivagiri S to All Participants:
+I'm also need some more time 
+from Goluguri Kavya to All Participants:
+need some more time
+from Sedhu Kandasamy to All Participants:
+I will Complete today
+from Devarakonda Rupa Sree to All Participants:
+done but small changes will discuss to teammates and complete it
+from Preethi P to All Participants:
+yesterday got an error because of script so had to include 
+onload function in body tag. but now it works without 
+that too after including script below
+from Guru Moorthy to All Participants:
+will complete by today

@@ -175,7 +175,6 @@ Naming Conventions & Casing
           const MAX_STUDENTS_PER_CLASS = 30;
 
 
-      
 ----
 CSS 
 ---
@@ -250,18 +249,105 @@ To become React JS Dev
   Prereq: 
   --
 
-    HTML5 JS API [will learn]
 
-Generator Fn 
-Sets, Maps
-JavaScript promises and Fetch 
+Fetch API (in React JS)
 Import and Export (in ReactJS)
 
-Drag and Drop API	
-Web Storage Options	
-Geolocation	
-Messaging 
-Custom Element 
+
+Storing Data in Browser 
+--
+  1. using cookies 
+  2. using Local Storage 
+  3. using Session Storage 
+
+
+----
+ECMAScript 
+  * Standard
+JavaScript 
+  * Implementation of ES
+
+TypeScript (TS)
+---
+  TS = JS + DataTyping 
+
+  * Superset of JavaScript
+  * 
+
+  DataTyping 
+  ---
+    Primitive Datatypes:
+    ---------
+      string, number, boolean, null, undefined, symbol (ES2015), bigint (ES2017)
+
+    Non-Primitive Datatypes / Reference Types 
+    ---
+      Object, Array, RegExp 
+
+  1. Strictly-Typed Languages / Strongly-Typed Languages 
+      Examples: Java, C#, TS 
+      Syntax:
+      --
+        int x = 10; // valid 
+        x = 100; // valid 
+        x = true; // compilation error 
+
+        String myName = "Arun"; 
+        myName = "John"; // valid
+        myName = 1200; // compilation error 
+
+  2. Loosely-Typed Languages / Dynamically-Typed Languages 
+      Examples: JS, PHP, Python
+      Syntax in JS 
+      ----
+        var x = 10; // number 
+        x = true; // valid 
+        x = 'John'; // valid 
+        x = undefined; //valid
+        x = null;  //valid
+        x = []; //valid
+        x = {}; //valid
+        x = function(){  //valid
+
+        }
+      
+
+  TypeScript Syntax 
+  ---
+    1. Explicitly-Typed 
+        var x: number = 10; // valid 
+        x = 100; // valid
+        x = true; // error 
+
+    2. Implicitly-Typed / Type Inference 
+        var y = 20; // valid 
+        y = true; // error 
+    
+    3. Without Assignment
+        var z; // has an implicit type - any 
+        z = 10;  // valid 
+        z = true; // valid 
+        z = "Arun"; // valid 
+        z = 100; // valid 
+
+  ------------
+  Many more examples in TS 
+  --
+   
+    Toolset
+    --
+      TypeScript => ( TSC ) => JavaScript
+      
+
+
+
+
+
+
+  
+
+
+
 
 
 

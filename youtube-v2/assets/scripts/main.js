@@ -70,3 +70,33 @@ const videos = [
     publishedDate: "5 weeks ago",
   },
 ];
+
+// disabling button 
+let voiceInputBtn = document.getElementById("voiceInputBtn");
+console.log(voiceInputBtn);
+voiceInputBtn?.addEventListener('click', (event) => {
+  console.log(event);
+  // disable the button
+  // learn about event bubbling and also event capturing
+});
+
+let locationBtn = document.getElementById("locationBtn");
+locationBtn?.addEventListener('click', function() {
+  navigator.geolocation.getCurrentPosition(
+    function (position) {
+      console.log("allowed");
+      console.log(position);
+
+    },
+    function () {
+      console.log("not allowed");
+    }
+  );
+});
+
+document.getElementById("savePincodeBtn")?.addEventListener('click', function(event) {
+  console.log(event);
+  // find the pincode input and get the entered value 
+  // save the pincode in localStorage
+  localStorage.setItem('pincode', 4536789);
+})

@@ -46,7 +46,10 @@ JS (explore most of them in jsbin)
   8. Learn about Null Coalescing (??)
   9. Explore forEach , filter , find , every,  reduce ,
      new Math methods, new Number methods, new Global methods. (ES2015)
-
+  10. learn about disabling button [and also changing the text]
+  11. Work on Saving pincode and removing it from localStorage
+  12. 
+  
 
 
 
