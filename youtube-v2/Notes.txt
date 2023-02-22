@@ -333,7 +333,24 @@ TypeScript (TS)
   ------------
   Many more examples in TS 
   --
-   
+    var appName: string = 'My App'; 
+    var age: number = 20; 
+    var isLoggedIn: boolean = true; 
+    var u: undefined = undefined; 
+    var n: null = null;
+
+    var x: any = 10;
+    x = true;  // valid 
+    x = 'John'; // valid 
+    x = undefined; // valid 
+    x = null; // valid 
+
+    var colors1: string[] = ['red', 'green', 'blue'];
+    var colors2: Array<string> = ['red', 'green', 'blue'];
+    
+    var colors3: any[] = ['red', 'green', 413, true, undefined, null];
+    var colors4: Array<any> = ['red', 'green', 413, true, undefined, null];
+
     Toolset
     --
       TypeScript => ( TSC ) => JavaScript
