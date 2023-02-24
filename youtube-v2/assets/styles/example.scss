@@ -1,0 +1,8 @@
+// npm i sass -g
+// sass assets/styles/example.scss assets/styles/example.css -w
+
+$text-color: brown;
+
+.div1 {
+  color: $text-color;
+}

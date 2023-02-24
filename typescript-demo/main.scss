@@ -1,0 +1,10 @@
+// scss => (pre processor) => css 
+
+// npm i sass -g 
+
+$text-color: red;
+
+.div1{
+  color: $text-color;
+}
+

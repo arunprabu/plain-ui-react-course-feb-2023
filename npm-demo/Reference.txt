@@ -1,0 +1,144 @@
+NodeJS Ecosystem
+--
+  third party apps (2M+ )
+  --
+    dropzone, datatables, sass, typescript
+
+    thru Node Package Manager (npm)
+    --  
+      1. Package Developers 
+      2. Marketplace (npmjs)
+          Server: https://www.npmjs.com/
+          Client: npm 
+            * install the package
+            * update the package 
+            * uninstall the package 
+      3. Web Developers 
+
+
+3 Types of Dependencies
+---
+  1. Project Dependencies 
+      * packages are needed for the app's functionality to work 
+
+      examples: 
+        dropzone, bootstrap, datatables.net
+
+      commands: 
+        npm i dropzone (or)
+        npm install dropzone (or)
+        npm i dropzone --save (or)
+        npm i dropzone -S 
+
+  2. Development Dependencies 
+      * packages are needed for the app to be developed 
+      * they are needed only during the time of development 
+      * they are not for functionalities 
+
+      examples: 
+        webpack, gulp, grunt, browserify
+
+      commands:
+        npm i webpack --save-dev (or)
+        npm i webpack -D 
+
+
+  3. Global Dependencies 
+      * can be installed system-wide 
+
+      commands 
+      --
+        npm i sass -g (or)
+        npm i sass --global 
+
+        npm i typescript -g 
+        npm i typescript --global
+
+---
+Webpage 
+---
+
+
+Website
+--
+  1. static websites 
+  2. dynamic websites 
+
+Webapps
+---
+  * website that will deal with huge amount of data 
+    examples: gmail.com, facebook.com, linkedin.com, youtube.com, amazon.in, flipkart.com 
+
+  1. Server Side Rendering(SSR) Apps / Traditional Webapps 
+      * Pages will refresh
+
+      Arch
+      --
+        1 Server (port number: 8080)
+          Response: HTML, CSS, JS + Data
+
+      Tech Stack (Source Code)
+      ---
+        Front End (HTML + CSS + JS) + Back End (Java/.Net/PHP/Python/Ruby/Perl/Node.js) 
+
+      Disadvantages
+      ---
+        1. Server has to do the heavy-lifting (unnecessarily going thru html, css, js lines of code)
+        2. Slower webapps 
+        3. bandwidth consumption is more 
+        4. expensive 
+        5. codebase is complicated
+        6. Not offering better UX 
+
+      Advantages
+      ---
+        ???
+
+  2. Client Side Rendering(CSR) Apps / Modern Webapps
+      * Pages will NOT RELOAD/REFRESH
+
+      Arch
+      ---
+        2 Servers 
+          1 Server - Front End App (Will build in this course)
+            port number: 4000
+            Response: HTML, CSS, JS -- wait for data
+
+
+          1 Server - Back End App
+            port number: 8080
+            Response: Data (JSON)
+
+      Tech Stack (Source Code)
+      ---
+        Front End App a.k.a Single Page Apps (SPA)
+          HTML, CSS, JS
+          
+
+        Back End App a.k.a Restful API 
+          Java/.Net/PHP/Python/Ruby/Perl/Node.js
+
+      Advatanages
+      ---
+        1. Server workload is shared
+        2. Faster webapps 
+        3. bandwidth consumption is less 
+        4. not expensive 
+        5. codebase is simpler to maintain
+        6. offering better UX 
+
+      Disadvantages
+      ---
+        ??? 
+
+----
+
+SPA?
+---
+  
+
+
+
+
+
+
