@@ -64,6 +64,7 @@ Website
   1. static websites 
   2. dynamic websites 
 
+
 Webapps
 ---
   * website that will deal with huge amount of data 
@@ -92,9 +93,10 @@ Webapps
 
       Advantages
       ---
-        ???
+        1. Webapp is Search Engine friendly 
+        2. Initial Loading will not take longer 
 
-  2. Client Side Rendering(CSR) Apps / Modern Webapps
+  2. Client Side Rendering(CSR) Apps / Modern Webapps = SPA + Restful API 
       * Pages will NOT RELOAD/REFRESH
 
       Arch
@@ -118,9 +120,9 @@ Webapps
         Back End App a.k.a Restful API 
           Java/.Net/PHP/Python/Ruby/Perl/Node.js
 
-      Advatanages
+      Advantages
       ---
-        1. Server workload is shared
+        1. Server's workload is shared
         2. Faster webapps 
         3. bandwidth consumption is less 
         4. not expensive 
@@ -129,13 +131,32 @@ Webapps
 
       Disadvantages
       ---
-        ??? 
+        1. Webapp is not Search Engine friendly (can be fixed)
+        2. Initial Loading will take a bit longer (can be fixed)
+
+      
+-----------------
+Single Page App 
+-----------------
+  Characteristics (7)
+  ----
+    1. Pages should not refresh 
+    2. URL should change 
+    3. Browser History should be maintained 
+    4. Header and Footer should not be loaded on every link click  
+    5. Main section should be updated 
+    6. Active menu should be set 
+    7. Page Title should also be set 
+  
+
+  SPA Frameworks/Libraries
+  ----
+    #1. React JS (Library)
+    #2. VueJS (Frameworks)
+    #3. Angular (Frameworks)
+    #4. Svelte (Frameworks)
 
 ----
-
-SPA?
----
-  
 
 
 

@@ -1,0 +1,18 @@
+npm
+--
+  from Preethi P to All Participants:
+  project dependencies
+  from Dheepan R to All Participants:
+  dependencies
+  from Lakshmi Narasimman V to All Participants:
+  dependencies of react app
+  from Neha Bhadoriya to All Participants:
+  project dependencies of react app
+  from Yasin L to All Participants:
+  project, development, global
+  from Saranya Baddeli to All Participants:
+  project dependencies
+  from Yasin L to All Participants:
+  project dependencies
+
+---
