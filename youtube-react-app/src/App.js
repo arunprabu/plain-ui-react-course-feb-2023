@@ -1,7 +1,9 @@
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 // importing css
 import './App.css';
+import HomePage from './pages/HomePage/HomePage';
 
 // Component 
 function App() {
@@ -11,7 +13,12 @@ function App() {
     // Ideal place for you to build the layout
     <div>
       <Header />
-      <h1>Success!</h1>
+
+      <main className="container mt-5">
+        <HomePage/>
+      </main>
+
+      <Footer />
     </div>
   );
 }
