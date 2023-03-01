@@ -1,18 +1,27 @@
 // rafce
-const LatestVideo = () => {
+const LatestVideo = (props) => { // receiving data from parent comp in props
+  // props are objects
+  // props are read-only
+  // props can have children
+  // props are used for receiving data from parent comp
+  console.log(props);
+
   return (
     <div className="card">
-      <img src="..." className="card-img-top" alt="..." />
+      <img
+        src={props.thumbnailUrl}
+        className="card-img-top"
+        alt={props.title}
+      />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
+        <h5 className="card-title">{props.title}</h5>
+        <p className="card-text">{props.children}</p>
       </div>
       <ul className="list-group list-group-flush">
-        <li className="list-group-item">Channel B</li>
-        <li className="list-group-item">1B Views | 2 weeks ago</li>
+        <li className="list-group-item">{props.channel}</li>
+        <li className="list-group-item">
+          {props.views} Views | {props.publishedDate}
+        </li>
       </ul>
     </div>
   );

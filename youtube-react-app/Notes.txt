@@ -6,6 +6,14 @@ Project Structure
       Header/
       Footer/
       MenuList/
+    pages/
+      HomePage/
+        LatestVideo/
+        TrendingVideoList/
+
+        
+
+
     
 
 ---
@@ -16,24 +24,49 @@ Components
 
   1. Functional Components 
       * coded as functions 
+      * were called as presentational components (before react v16.8)
+      * were called as stateless components  (before react v16.8)
+      * were called as dumb components  (before react v16.8)
+      * they are not called as dumb, stateless, presentational anymore 
+      * fn components can also have state 
+
       1.1 Fn Components with Named Function [DONE]
       1.2 Fn Components with Anonymous Function [DONE]
       1.3 Fn Components with Arrow Function [DONE | RECOMMENDED]
     
   2. Class Components 
       * coded as class in js 
+      * were/are called as containers 
+      * were called as stateful components 
+      * were called as smart components 
+
+
+Data Binding
+--
+  1. One Way Binding 
+      * have data in variable and display in JSX 
+  
+  2. Two-Way Binding
+      * have data in variable, display in JSX and update the data in variable
 
 -------------
 Sharing Data between components
 ---
-  1. Parent to Child Component Communication
+  1. Parent to Child Component Communication [DONE]
       using Props
 
-  2. Child to Parent Component Communication
+  2. Child to Parent Component Communication 
       Using Props and Event Handler from Parent Comp
 
   3. Any to Any Component Communication
       Using Context API 
       Using Redux
 
+====
+States 
+Events 
+Conditional Rendering
+Lists & Keys 
 
+Class Comp 
+Lifecycle
