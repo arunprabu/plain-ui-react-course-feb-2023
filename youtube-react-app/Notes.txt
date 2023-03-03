@@ -1,4 +1,25 @@
 
+
+Capstone - 1
+--
+  submission checklist
+  ---
+    1. follow naming conventions 
+    2. follow better coding practices
+        * validate html
+        * validate css 
+        * accessibility guidelines 
+        * valid javascript 
+    3. formatted code 
+    4. code comments (20%)
+    5. have 0 console errors
+  ---
+
+--------
+
+
+
+
 Project Structure
 --
   src/
@@ -63,10 +84,40 @@ Sharing Data between components
       Using Redux
 
 ====
-States 
-Events 
-Conditional Rendering
-Lists & Keys 
+States [DONE]
+Events [DONE]
+Conditional Rendering [DONE]
+Lists & Keys [DONE]
 
 Class Comp 
-Lifecycle
+  Lifecycle
+
+Styles 
+Two Way Binding 
+
+React Without ES6
+React Without JSX
+
+
+
+
+Fragments
+Higher Order Components 
+Error Boundary 
+Strict Mode
+
+PropTypes
+Forms 
+  Controlled Components 
+  Uncontrolled Components
+
+Hooks (8-12 hours)
+Lazy Loading 
+Performance 
+
+Unit Testing (25-30 hours)
+Redux (8-12 hours)
+
+
+
+

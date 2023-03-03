@@ -79,7 +79,7 @@ class TrendingVideoList extends Component {
               </li>
               <li className="list-group-item">
                 {this.state.videos[0].views} Views |{" "}
-                {this.state.videos[0].publishedDate} days ago
+                {this.state.videos[0].publishedDate}
               </li>
             </ul>
           </div>
@@ -102,7 +102,7 @@ class TrendingVideoList extends Component {
               </li>
               <li className="list-group-item">
                 {this.state.videos[1].views} Views |{" "}
-                {this.state.videos[1].publishedDate} days ago
+                {this.state.videos[1].publishedDate}
               </li>
             </ul>
           </div>

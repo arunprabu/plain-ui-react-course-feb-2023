@@ -10,7 +10,9 @@ const Footer = function() {
     <footer className="text-center">
       <hr />
       <MenuList />
-      <p>Copyright {copyrightYear} | {developerName}</p>
+      <div>
+        Copyright &copy; {copyrightYear} | {developerName}
+      </div>
     </footer>
   );
 }

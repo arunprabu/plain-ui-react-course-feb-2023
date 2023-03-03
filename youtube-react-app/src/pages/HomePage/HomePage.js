@@ -1,8 +1,9 @@
 import LatestVideo from "./LatestVideo/LatestVideo";
+import RecommendedVideoList from "./RecommendedVideoList/RecommendedVideoList";
+import Subscription from "./Subscription/Subscription";
 import TrendingVideoList from "./TrendingVideoList/TrendingVideoList";
 
 const HomePage = () => {
-
   return (
     <div className="pt-2">
       <h1 className="text-center">Learn about Main Concepts of ReactJS</h1>
@@ -40,12 +41,22 @@ const HomePage = () => {
           <LatestVideo />
         </div> */}
       </div>
+      <hr />
+      <h2>Trending Videos | Class Comp, States, Events, Props (later) Demo</h2>
+      <TrendingVideoList />
+
+      <hr />
+      <h2>
+        Recommended Videos | Class Comp, States, Event, Conditional Rendering,
+        Lists & Keys Demo
+      </h2>
+      <RecommendedVideoList />
 
       <hr/>
-      <h2>Trending Videos | Class Comp, States, Events, Props Demo</h2>
-      <TrendingVideoList />
+      <h2>Styles in ReactJS | Inline, Internal and External Styles Demo</h2>
+      <Subscription />
     </div>
   );
-}
+};
 
 export default HomePage;
