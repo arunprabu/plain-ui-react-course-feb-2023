@@ -89,22 +89,21 @@ Events [DONE]
 Conditional Rendering [DONE]
 Lists & Keys [DONE]
 
-Class Comp 
-  Lifecycle
+Styles [DONE]
+Two Way Binding [DONE]
 
-Styles 
-Two Way Binding 
+Class Comp [DONE]
+  Lifecycle [DONE]
+React Without ES6 [DONE]
+React Component Without JSX [DONE]
 
-React Without ES6
-React Without JSX
+Fragments [DONE]
+Strict Mode 
 
 
 
-
-Fragments
-Higher Order Components 
 Error Boundary 
-Strict Mode
+Higher Order Components
 
 PropTypes
 Forms 

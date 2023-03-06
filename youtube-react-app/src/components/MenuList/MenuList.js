@@ -1,5 +1,5 @@
 // Functional Comp with Arrow Function
-const MenuList = () => {
+const MenuList = (props) => {
   // must return jsx
   const navItems = [
     {

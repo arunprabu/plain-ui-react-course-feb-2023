@@ -1,2 +1,6 @@
 1. Learn about integrating bootstrap in React CRA based project 
+2. learn about integrating sass in React CRA based project 
+3. Optimize MenuList with MenuItem comp 
+    pass the props from MenuList to MenuItem and display them from MenuItem 
+4. create TrendingVideo comp and receive props from TrendingVideoList 
 
