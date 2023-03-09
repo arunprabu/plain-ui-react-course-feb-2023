@@ -2,7 +2,6 @@ import React from 'react';
 import './Subscription.css';
 
 const Subscription = () => {
-
   const myStyles = {
     renewStyles: {
       color: "#000",

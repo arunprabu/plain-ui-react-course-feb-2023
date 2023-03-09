@@ -1,3 +1,4 @@
+import FakeFragment from "./FakeFragment/FakeFragment";
 import LatestVideo from "./LatestVideo/LatestVideo";
 import LifeCycleDemo from "./LifeCycleDemo/LifeCycleDemo";
 import MyProfile from "./MyProfile/MyProfile";
@@ -62,9 +63,19 @@ const HomePage = () => {
       <h2>My Profile | Two Way Binding Demo</h2>
       <MyProfile />
 
-      <hr/>
+      <hr />
       <h2>Life Cycle Hooks Demo</h2>
       <LifeCycleDemo />
+
+      <hr />
+      <h2>Recreating Fragment-like Component</h2>
+
+      <FakeFragment>
+        <p>A Comp is react can receive props children and return the same</p>
+      </FakeFragment>
+      <FakeFragment>
+        <h5>This comp is returing whatever I pass to it as props children</h5>
+      </FakeFragment>
     </div>
   );
 };

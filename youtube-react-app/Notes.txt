@@ -76,10 +76,10 @@ Sharing Data between components
   1. Parent to Child Component Communication [DONE]
       using Props
 
-  2. Child to Parent Component Communication 
+  2. Child to Parent Component Communication [TODO]
       Using Props and Event Handler from Parent Comp
 
-  3. Any to Any Component Communication
+  3. Any to Any Component Communication 
       Using Context API 
       Using Redux
 
@@ -98,24 +98,103 @@ React Without ES6 [DONE]
 React Component Without JSX [DONE]
 
 Fragments [DONE]
-Strict Mode 
 
-
-
+Strict Mode [DONE]
 Error Boundary 
 Higher Order Components
 
-PropTypes
+Routing 
+
 Forms 
   Controlled Components 
   Uncontrolled Components
 
+REST API Calls  
+  Submitting the form data to backend 
+
+PropTypes
+
 Hooks (8-12 hours)
+
+REST API Calls  
+  * from functional components 
+  * from class components
+
+
+
 Lazy Loading 
 Performance 
 
 Unit Testing (25-30 hours)
-Redux (8-12 hours)
+Redux (10-12 hours)
+
+
+
+       
+Single Page App (SPA)
+---
+  7 Characteristics 
+  ---
+    1. Pages should not reload/refresh [DONE]
+    2. URL should be changed [DONE]
+    3. Browser History should be maintained without Page Refresh [DONE]
+    4. Retain Header and Footer [DONE]
+    5. The content in b/w header and footer should be updated [DONE]
+    6. Active menu should be set [DONE]
+    7. Page Title should be changed [TODO]
+
+
+Routing 
+---
+  npm i react-router-dom
+
+  Step 0: 
+  ----
+    Identify the Menus and the URLs 
+
+    Home  
+      Url: /
+
+    Video
+      Url: /video 
+
+    About Us
+      Url: /about-us 
+
+    Contact Us 
+      Url: /contact-us 
+
+  Step 1: 
+  ------
+    Let's create the necessary components for the URLs 
+
+    HomePage 
+    VideoPage
+    AboutUsPage 
+    ContactUsPage 
+
+  Step 2: 
+  ------
+    Configuring the Routes in App.js 
+
+    * associating the path with the comp 
+
+
+  Step 3: 
+  ------
+    Let's check the app. Pages will still refresh. 
+
+    It's time to fix. 
+
+    in MenuItem.js / MenuList.js 
+      replace <a href=''> with <NavLink to=''/>
+
+
+  Check the app. We have SPA.
+===========
+
+
+
 
 
 

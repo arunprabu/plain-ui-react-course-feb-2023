@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 // Functional Comp with Arrow Function
 const MenuList = (props) => {
   // must return jsx
@@ -9,8 +11,8 @@ const MenuList = (props) => {
     },
     {
       id: 2,
-      title: "Videos",
-      url: "/videos",
+      title: "Video",
+      url: "/video",
     },
     {
       id: 3,
@@ -29,12 +31,10 @@ const MenuList = (props) => {
       {navItems.map((navItem) => {
         // console.log(navItem);
         return (
-          <li
-            className="nav-item"
-            key={navItem.id}>
-            <a className="nav-link" href={navItem.url}>
+          <li className="nav-item" key={navItem.id}>
+            <NavLink to={navItem.url} className="nav-link">
               {navItem.title}
-            </a>
+            </NavLink>
           </li>
         );
       })}

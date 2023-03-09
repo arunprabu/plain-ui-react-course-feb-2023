@@ -104,7 +104,7 @@ class RecommendedVideoList extends Component {
         </div>
       );
     });
-
+    
     return <div className="row">{videoList}</div>;
   }
 }

@@ -1,6 +1,12 @@
+
+Todo Sheet Link
+https://iihtlimited-my.sharepoint.com/:x:/g/personal/arun_vijayarengan_iiht_com/Efngrb7BYF5Hv2i1GQAwiSIB-CS--jQwSdjsk6uYb6l-RA?e=gEYPYX
+
 1. Learn about integrating bootstrap in React CRA based project 
 2. learn about integrating sass in React CRA based project 
 3. Optimize MenuList with MenuItem comp 
-    pass the props from MenuList to MenuItem and display them from MenuItem 
+    pass the props from MenuList to MenuItem and display them in MenuItem 
 4. create TrendingVideo comp and receive props from TrendingVideoList 
-
+5. Complete child (RecommendedVideo) to Parent Comp (RecommendedVideoList) communication 
+    pass callback fn as prop to child comp. 
+    execute the callback fn from child comp 
