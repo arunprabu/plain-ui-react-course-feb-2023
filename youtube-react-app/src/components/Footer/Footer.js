@@ -9,7 +9,7 @@ const Footer = function() {
   return (
     <footer className="text-center">
       <hr />
-      <MenuList/>
+      <MenuList />
       <div>
         Copyright &copy; {copyrightYear} | {developerName}
       </div>

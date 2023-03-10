@@ -1,22 +1,65 @@
-1st March 2023
+Nominees for JS Refresher 
+---
+  Lakshmi Narasimman V 
+  Nikita Rathi (map)
+  Dheepan R 
+  Sedhu Kandasamy 
+  Sivagiri S 
+  Neha Bhadoriya 
+  Goluguri Kavya 
+  Guru Moorthy 
 
-3.15 to 4 
---
-  Sai Varun,   
+=======
 
-4 to 4.45
---
-  Preethi    
+Topics
+---
+  variables 
+    var, let, const 
+  datatypes
+  object 
+  arrays 
+  operators
+  conditionals 
+    if/else if/else 
+    switch... case  
+  looping 
+    for 
+    for each 
+    map 
+    for.. of 
+    for.. in 
 
-4.45 to 5.30 
---
-  vignesh   
+  events 
+    handling events 
+    event object 
+  
+  DOM Manipulation 
+  
+  window object
 
-5.45 to 6.30 
---
-  Harshitha Patel
+  functions 
+    1. Named Fn 
+    2. Anonymous Fn 
+    3. Arrow Fn 
+    4. Fn as event handler 
+  
+  class 
+    public, private properties
+    methods
+    inheritance 
+    object 
+  
+  -------
+  ES2015
+  -------
 
-6.30 to 7.15pm
---
-  Sedhu Kandasamy
+
+
+  
+
+
+  
+
+
+
   

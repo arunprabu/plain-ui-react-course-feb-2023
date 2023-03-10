@@ -101,9 +101,11 @@ Fragments [DONE]
 
 Strict Mode [DONE]
 Error Boundary 
-Higher Order Components
+Higher Order Components 
 
-Routing 
+Routing [DONE]
+  1. Basic Routing 
+  2. Nested Routing / Child Routing [TODO]
 
 Forms 
   Controlled Components 
@@ -142,6 +144,7 @@ Single Page App (SPA)
     5. The content in b/w header and footer should be updated [DONE]
     6. Active menu should be set [DONE]
     7. Page Title should be changed [TODO]
+        Refer: helmet package -- get it from npmjs.com 
 
 
 Routing 

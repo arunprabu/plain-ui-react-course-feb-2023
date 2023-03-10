@@ -2,8 +2,10 @@ import React from 'react'
 
 const ContactUsPage = () => {
   return (
-    <div>ContactUsPage</div>
-  )
+    <div>
+      Contact Us Page
+    </div>
+  );
 }
 
 export default ContactUsPage

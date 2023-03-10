@@ -1,8 +1,10 @@
 import React from 'react'
 
-const AboutUsPage = () => {
+const AboutUsPage = (props) => {
+  console.log(props);
+  console.log(props.test);
   return (
-    <div>AboutUsPage</div>
+    <div>AboutUsPage {props.test()}</div>
   )
 }
 
