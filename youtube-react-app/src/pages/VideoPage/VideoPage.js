@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const VideoPage = () => {
   return (
@@ -6,4 +6,4 @@ const VideoPage = () => {
   )
 }
 
-export default VideoPage
+export default VideoPage;

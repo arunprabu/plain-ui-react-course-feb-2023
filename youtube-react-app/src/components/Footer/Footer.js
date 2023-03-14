@@ -1,11 +1,11 @@
-import MenuList from "../MenuList/MenuList";
+import MenuList from '../MenuList/MenuList';
 
-// Fn comp with anonymous function 
-const Footer = function() {
+// Fn comp with anonymous function
+const Footer = function () {
   const copyrightYear = new Date().getFullYear();
   const developerName = 'Arun';
 
-  // must return jsx 
+  // must return jsx
   return (
     <footer className="text-center">
       <hr />

@@ -1,3 +1,9 @@
 body {
   margin: 0
 }
+
+/* hoc related styles */ 
+.hoc-demo-box {
+  border: solid 5px red;
+  padding: 20px;
+}

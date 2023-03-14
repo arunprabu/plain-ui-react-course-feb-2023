@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 class LifeCycleDemo extends Component {
-  constructor() {
+  constructor () {
     // optional to have constructor
-    console.log("=========1. Inside constructor() ======== ");
+    console.log('=========1. Inside constructor() ======== ');
     super();
     // ideal place for your initial component-wide data
     this.state = {
@@ -14,11 +14,11 @@ class LifeCycleDemo extends Component {
   }
 
   // lifecycle hook
-  componentDidMount() {
-    console.log("=========3. Inside componentDidMount() ======== ");
+  componentDidMount () {
+    console.log('=========3. Inside componentDidMount() ======== ');
     // this method will be executed ONLY ONCE after initial render()
-    // this method will be called when the comp's UI comes into view 
-    // this is the ideal place for you to send REST API Calls 
+    // this method will be called when the comp's UI comes into view
+    // this is the ideal place for you to send REST API Calls
     // mocking rest api calls using timeout
     setTimeout(() => {
       // upon getting successful res
@@ -28,24 +28,24 @@ class LifeCycleDemo extends Component {
         featureName: 'Understanding LifeCycle Hooks!!!'
       });
 
-      // upon getting error res 
+      // upon getting error res
       // this.setState({
       //   isLoading: false,
       //   isError: true,
       //   featureName: "",
       // });
-    }, 5000 );
+    }, 5000);
   }
 
-  shouldComponentUpdate(nextProps, nextState){
+  shouldComponentUpdate (nextProps, nextState) {
     // when the state is updated -- this will be called
     // is invoked before rendering an already mounted component when new props or state are being received
     // it must return either true or false
-    console.log("=========4 Inside shouldComponentUpdate() ======== ");
+    console.log('=========4 Inside shouldComponentUpdate() ======== ');
     // compare the prevState (this.state) and new State (nextState)
     // if changes found, then return true or else return false
     // you can also return true if prevProps (this.props) and nextProps change
-    console.log(this.state); //prevState
+    console.log(this.state); // prevState
     console.log(nextState); // nextState
     // for example:
     if (
@@ -59,8 +59,8 @@ class LifeCycleDemo extends Component {
     }
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    console.log("=========6 Inside componentDidUpdate() ======== ");
+  componentDidUpdate (prevProps, prevState) {
+    console.log('=========6 Inside componentDidUpdate() ======== ');
     // called immediately after the UPDATE in JSX (after re-rendering)
     // will NEVER be called after initial rendering
     console.log(prevProps); // prevProps contains props before update
@@ -71,15 +71,15 @@ class LifeCycleDemo extends Component {
     document.getElementById('myPara').style.color = 'green';
   }
 
-  render() {
+  render () {
     // this method will be called immediately after constructor i.e initial rendering
-    console.log("=========2 & 5 Inside render() ======== ");
+    console.log('=========2 & 5 Inside render() ======== ');
 
-    if(this.state.isLoading) {
+    if (this.state.isLoading) {
       return <div className='spinner-border text-success'></div>
     }
 
-    if(this.state.isError) {
+    if (this.state.isError) {
       return <div className='alert alert-danger'>Some Error Occurred! Try again later</div>
     }
 

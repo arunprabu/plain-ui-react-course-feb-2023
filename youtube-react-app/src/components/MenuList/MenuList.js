@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 // Functional Comp with Arrow Function
 const MenuList = (props) => {
@@ -6,24 +6,29 @@ const MenuList = (props) => {
   const navItems = [
     {
       id: 1,
-      title: "Home",
-      url: "/",
+      title: 'Home',
+      url: '/'
     },
     {
       id: 2,
-      title: "Video",
-      url: "/video",
+      title: 'Video',
+      url: '/video'
     },
     {
       id: 3,
-      title: "About Us",
-      url: "/about-us",
+      title: 'Hoc Demo',
+      url: '/hoc-demo'
     },
     {
       id: 4,
-      title: "Contact Us",
-      url: "/contact-us",
+      title: 'About Us',
+      url: '/about-us'
     },
+    {
+      id: 5,
+      title: 'Contact Us',
+      url: '/contact-us'
+    }
   ];
 
   return (

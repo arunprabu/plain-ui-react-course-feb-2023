@@ -81,7 +81,7 @@ Sharing Data between components
 
   3. Any to Any Component Communication 
       Using Context API 
-      Using Redux
+      Using Redux / Flux / MobX 
 
 ====
 States [DONE]
@@ -98,13 +98,17 @@ React Without ES6 [DONE]
 React Component Without JSX [DONE]
 
 Fragments [DONE]
-
 Strict Mode [DONE]
-Error Boundary 
+Error Boundary [DONE]
+
 Higher Order Components 
+  * a fn or a class component 
+  
+
+Setup Linting [DONE]
 
 Routing [DONE]
-  1. Basic Routing 
+  1. Basic Routing [DONE]
   2. Nested Routing / Child Routing [TODO]
 
 Forms 
@@ -114,7 +118,7 @@ Forms
 REST API Calls  
   Submitting the form data to backend 
 
-PropTypes
+PropTypes [DONE]
 
 Hooks (8-12 hours)
 
@@ -122,15 +126,11 @@ REST API Calls
   * from functional components 
   * from class components
 
-
-
 Lazy Loading 
 Performance 
 
 Unit Testing (25-30 hours)
 Redux (10-12 hours)
-
-
 
        
 Single Page App (SPA)
@@ -197,8 +197,42 @@ Routing
 ===========
 
 
+React Virtual DOM 
+====
+  A virtual DOM is a lightweight JavaScript object which is the copy of the real DOM.
+
+  This Virtual DOM works in three simple steps-
+  i. Whenever any underlying data changes, the entire Ul is
+  re-rendered in Virtual DOM representation
+  ii. Then the difference between the previous DOM representation
+  and the new one is calculated
+  iii. Once the calculations are done, the real DOM will be updated with only
+  the things that have actually changed
+  
+----
 
 
 
+How to Setup ESLint and also prettier?
+=========
+  Step 1: 
+    npm i eslint -D 
+  
+  Step 2: 
+    try the following command 
+      npx eslint --init 
+      or 
+      You can also run this command directly using 'npm init @eslint/config'.
+
+    to create .eslintrc.json 
+  
+  Step 3:
+  --
+    we can setup the rules or inherit from standard rules
+
+  Step 4: 
+  --
+    we can setup prettier 
 
 
+----

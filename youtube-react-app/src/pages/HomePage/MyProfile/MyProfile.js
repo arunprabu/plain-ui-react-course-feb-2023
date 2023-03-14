@@ -1,11 +1,11 @@
-// Two Way Binding 
-// rce 
+// Two Way Binding
+// rce
 import React, { Fragment, Component } from 'react'
 
 class MyProfile extends Component {
   // JS <=> JSX
   state = {
-    profileName: "john",
+    profileName: 'john'
   };
 
   handleProfileNameChange = (event) => {
@@ -13,11 +13,11 @@ class MyProfile extends Component {
     // console.log(event);
     console.log(event.target.value);
     this.setState({
-      profileName: event.target.value,
+      profileName: event.target.value
     });
   }
 
-  render() {
+  render () {
     return (
       <>
         <h3>Profile Info</h3>

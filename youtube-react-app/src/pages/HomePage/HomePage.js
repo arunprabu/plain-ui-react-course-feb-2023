@@ -1,10 +1,10 @@
-import FakeFragment from "./FakeFragment/FakeFragment";
-import LatestVideo from "./LatestVideo/LatestVideo";
-import LifeCycleDemo from "./LifeCycleDemo/LifeCycleDemo";
-import MyProfile from "./MyProfile/MyProfile";
-import RecommendedVideoList from "./RecommendedVideoList/RecommendedVideoList";
-import Subscription from "./Subscription/Subscription";
-import TrendingVideoList from "./TrendingVideoList/TrendingVideoList";
+import FakeFragment from './FakeFragment/FakeFragment';
+import LatestVideo from './LatestVideo/LatestVideo';
+import LifeCycleDemo from './LifeCycleDemo/LifeCycleDemo';
+import MyProfile from './MyProfile/MyProfile';
+import RecommendedVideoList from './RecommendedVideoList/RecommendedVideoList';
+import Subscription from './Subscription/Subscription';
+import TrendingVideoList from './TrendingVideoList/TrendingVideoList';
 
 const HomePage = () => {
   return (
@@ -14,7 +14,6 @@ const HomePage = () => {
       <div className="row">
         <div className="col-md-3">
           <LatestVideo
-            id="1"
             title="FraVsArg Football 2022 Highlights"
             thumbnailUrl="https://plchldr.co/i/300x200?&bg=ff0000&fc=ffffff&text=FraVsArg"
             channel="FIFA"
@@ -26,7 +25,6 @@ const HomePage = () => {
         </div>
         <div className="col-md-3">
           <LatestVideo
-            id="2"
             title="EngVsNZ Test Cricket 2023 Highlights"
             thumbnailUrl="https://plchldr.co/i/300x200?&bg=00ff00&fc=000000&text=EngVsNZTest"
             channel="ECB"

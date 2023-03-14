@@ -1,8 +1,8 @@
 import React from 'react'; // node_module imports
 import ReactDOM from 'react-dom/client'; // node_module imports
 
-import './index.css'; // custom imports 
-import App from './App'; 
+import './index.css'; // custom imports
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

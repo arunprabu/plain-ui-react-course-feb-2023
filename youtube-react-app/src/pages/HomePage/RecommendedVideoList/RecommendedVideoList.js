@@ -1,54 +1,54 @@
-import { Component } from "react";
+import { Component } from 'react';
 
 class RecommendedVideoList extends Component {
-  constructor() {
+  constructor () {
     super(); // must call super inderived class constructor to access 'this' keyword
     // comp-wide data
     this.state = {
       videos: [
         {
           id: 57688797,
-          title: "Ind Vs Aus Cricket 2023",
-          description: "Enjoy watching Cricket Series between Ind and Aus",
+          title: 'Ind Vs Aus Cricket 2023',
+          description: 'Enjoy watching Cricket Series between Ind and Aus',
           thumbnailUrl:
-            "https://plchldr.co/i/300x200?&bg=0000ff&fc=000000&text=IndVsAus Cricket",
-          channel: "Hotstar",
-          views: "1M",
-          publishedDate: "1 month ago",
-          isInWatchlist: false,
+            'https://plchldr.co/i/300x200?&bg=0000ff&fc=000000&text=IndVsAus Cricket',
+          channel: 'Hotstar',
+          views: '1M',
+          publishedDate: '1 month ago',
+          isInWatchlist: false
         },
         {
           id: 87579763,
-          title: "Top 10 Goals of Messi",
-          description: "Enjoy watching 10 best goals of Messi",
+          title: 'Top 10 Goals of Messi',
+          description: 'Enjoy watching 10 best goals of Messi',
           thumbnailUrl:
-            "https://plchldr.co/i/300x200?&bg=ff0000&fc=000000&text=Top 10 Goals of Messi",
-          channel: "FIFA",
-          views: "1M",
-          publishedDate: "1 month ago",
-          isInWatchlist: false,
+            'https://plchldr.co/i/300x200?&bg=ff0000&fc=000000&text=Top 10 Goals of Messi',
+          channel: 'FIFA',
+          views: '1M',
+          publishedDate: '1 month ago',
+          isInWatchlist: false
         },
         {
           id: 76445546,
-          title: "Top 10 Goals of Ronaldo",
-          description: "Enjoy watching 10 best goals of Ronaldo",
+          title: 'Top 10 Goals of Ronaldo',
+          description: 'Enjoy watching 10 best goals of Ronaldo',
           thumbnailUrl:
-            "https://plchldr.co/i/300x200?&bg=00ff00&fc=000000&text=Top 10 Goals of Ronaldo",
-          channel: "FIFA",
-          views: "4M",
-          publishedDate: "2 month ago",
-          isInWatchlist: true,
-        },
-      ],
+            'https://plchldr.co/i/300x200?&bg=00ff00&fc=000000&text=Top 10 Goals of Ronaldo',
+          channel: 'FIFA',
+          views: '4M',
+          publishedDate: '2 month ago',
+          isInWatchlist: true
+        }
+      ]
     };
   }
 
-  handleWatchlist(index) { 
+  handleWatchlist (index) {
     console.log(this);
     console.log(index);
     // Do not mutate state directly. Use setState().
     // working with state immutably
-    let duplicateVideos = [...this.state.videos];
+    const duplicateVideos = [...this.state.videos];
     duplicateVideos[index].isInWatchlist =
       !duplicateVideos[index].isInWatchlist;
     console.log(duplicateVideos);
@@ -58,7 +58,7 @@ class RecommendedVideoList extends Component {
     });
   }
 
-  render() {
+  render () {
     // Conditional Rendering
     if (!Array.isArray(this.state.videos) || this.state.videos.length === 0) {
       return (
@@ -96,7 +96,7 @@ class RecommendedVideoList extends Component {
                   className="btn btn-success btn-sm"
                   onClick={this.handleWatchlist.bind(this, index)}
                 >
-                  {video.isInWatchlist ? "In Watchlist" : "Add to Watchlist"}
+                  {video.isInWatchlist ? 'In Watchlist' : 'Add to Watchlist'}
                 </button>
               </li>
             </ul>
@@ -104,7 +104,7 @@ class RecommendedVideoList extends Component {
         </div>
       );
     });
-    
+
     return <div className="row">{videoList}</div>;
   }
 }

@@ -1,8 +1,8 @@
 // Fn component with Named Fn
-import MenuList from "../MenuList/MenuList";
+import MenuList from '../MenuList/MenuList';
 
 // comp can have js, jsx and css (optional)
-function Header() {
+function Header () {
   // must return JSX
   return (
     <header>

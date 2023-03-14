@@ -1,5 +1,7 @@
-// rafce
-const LatestVideo = (props) => { // receiving data from parent comp in props
+import PropTypes from 'prop-types';
+
+const LatestVideo = (props) => {
+  // receiving data from parent comp in props
   // props are objects
   // props are read-only
   // props can have children
@@ -25,6 +27,16 @@ const LatestVideo = (props) => { // receiving data from parent comp in props
       </ul>
     </div>
   );
+};
+
+LatestVideo.propTypes = {
+  isLoggedIn: PropTypes.bool,
+  thumbnailUrl: PropTypes.string,
+  title: PropTypes.string,
+  children: PropTypes.string,
+  channel: PropTypes.string,
+  views: PropTypes.string,
+  publishedDate: PropTypes.string
 };
 
 export default LatestVideo;
