@@ -88,48 +88,42 @@ States [DONE]
 Events [DONE]
 Conditional Rendering [DONE]
 Lists & Keys [DONE]
-
 Styles [DONE]
 Two Way Binding [DONE]
-
 Class Comp [DONE]
   Lifecycle [DONE]
 React Without ES6 [DONE]
 React Component Without JSX [DONE]
-
 Fragments [DONE]
 Strict Mode [DONE]
 Error Boundary [DONE]
-
-Higher Order Components 
+Higher Order Components [DONE]
   * a fn or a class component 
-  
-
 Setup Linting [DONE]
-
 Routing [DONE]
   1. Basic Routing [DONE]
   2. Nested Routing / Child Routing [TODO]
+PropTypes [DONE]
 
-Forms 
+Forms (1.5 hours) [DONE]
   Controlled Components 
   Uncontrolled Components
 
 REST API Calls  
   Submitting the form data to backend 
 
-PropTypes [DONE]
-
 Hooks (8-12 hours)
-
 REST API Calls  
   * from functional components 
   * from class components
 
-Lazy Loading 
-Performance 
-
 Unit Testing (25-30 hours)
+
+Build and Deployment (1 hour)
+--
+  Lazy Loading 
+  Performance 
+
 Redux (10-12 hours)
 
        
@@ -236,3 +230,34 @@ How to Setup ESLint and also prettier?
 
 
 ----
+
+
+Rest API 
+---
+  Rest API URL: 
+    https://jsonplaceholder.typicode.com/users
+
+  Http Methods:
+    GET, POST, PUT, PATCH, DELETE
+
+    Create a New User  (CREATE)
+      POST
+
+    List Users / Fetch Users  (READ) 
+      GET 
+
+    Update User   (UPDATE)
+      PUT or PATCH 
+
+    Delete User   (DELETE)
+      DELETE
+
+    
+    
+
+
+    
+
+
+  
+
