@@ -31,11 +31,18 @@ Project Structure
       HomePage/
         LatestVideo/
         TrendingVideoList/
+      VideoPage/
+        VideoPlayer/
+        SuggestedVideoList/
+          ...
+          SuggestedVideo/
+        CommentList/
+          Comment/
+      AboutUsPage/
+      ContactUsPage/
+      HocDemoPage/
+      
 
-        
-
-
-    
 
 ---
 Components 
@@ -109,13 +116,15 @@ Forms (1.5 hours) [DONE]
   Controlled Components 
   Uncontrolled Components
 
-REST API Calls  
+REST API Calls  [DONE]
   Submitting the form data to backend 
+
+Serving assets from local project folder 
 
 Hooks (8-12 hours)
 REST API Calls  
   * from functional components 
-  * from class components
+  * from class components 
 
 Unit Testing (25-30 hours)
 
@@ -260,4 +269,9 @@ Rest API
 
 
   
+
+    
+
+=======
+
 

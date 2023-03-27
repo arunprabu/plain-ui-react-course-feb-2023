@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Newspaper Website!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">NewspaperApp+</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/weather.html">Weather App [TODO]</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="px-4 py-5 my-5 text-center">
+      <h1 class="display-5 fw-bold">NewspaperApp+</h1>
+
+      <div class="input-group mb-3 mt-4 name-field-group" id="nameInputWrapper">
+        <input type="text" class="form-control" 
+        placeholder="Enter Your Name" 
+        aria-label="Enter Your Name"
+        id="nameInput"
+        >
+        <button id="saveBtn" 
+          type="button" 
+          class="btn btn-outline-secondary"
+          >SAVE</button>
+      </div>
+
+      <div id="editNameWrapper" class="hide">
+        <span id="greetingText">Hello, Arun!</span>
+        <button  type="button" class="btn btn-link" id="changeNameBtn">Change Name</button>
+      </div>
+
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Access latest news, find out latest images from around the globe and access weather info!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" 
+            class="btn btn-primary btn-lg px-4 gap-3"
+            onclick="handleRedirect('news')">Browse News</button>
+          <button type="button" 
+            class="btn btn-outline-secondary btn-lg px-4"
+            onclick="handleRedirect('gallery')">Image Gallery</button>
+        </div>
+      </div>
+      
+    </div>
+
+  </main>
+
+  <footer class="text-center">
+    <hr>
+    <p>Copyright &copy; 2023 | Arun</p>
+  </footer>
+
+  <script src="./assets/scripts/home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+
+=========
+JS & ES2015  
+-----------
+
+  DOM Manipulation [DONE]
+  Array Methods [DONE]
+  Object [DONE]
+  JSON [DONE]
+  AJAX Calls [DONE]
+  Promise 
+  REST API Calls 
+    fetch 
+  
+  Template Literal 
+
+  HTML5 JS API's 
+    local storage 
+    session storage
+    Geolocation API 
+
+  ES2015 
+
+
+===
+Features
+--
+  News [DONE]
+  ---
+    1. connect with rest api backend thru traditional ajax call
+    2. Keep the UI in template literal 
+    3. display the news in UI 
+
+  Instagram [DONE]
+  ---
+    1. connect with rest api backend thru latest fetch api 
+    2. Keep the UI in template literal 
+    3. display the images in UI 
+
+  Weather App [TODO]
+  ---
+    1. connect with rest api using fetch 
+    2. Keep the UI in template literal 
+    3. display the weather data in UI 
+    [ Refresh ]  
+    
+    Enter City: [ ....  ] 
+                [Get Weather Info]
+    
+    4. We will save the city in local storage. 
+    5. on load we'll fetch the city from local storage and fetch the weather info 
+
+----
+
+  
+

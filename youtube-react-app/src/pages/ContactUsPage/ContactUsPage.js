@@ -1,40 +1,64 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 export class ContactUsPage extends Component {
   state = {
     fullName: '',
     email: '',
     phone: '',
-    query: ''
+    query: '',
+    isSaved: false,
+    isError: false
   };
 
   searchInput = React.createRef();
 
   handleChange = (event) => {
-    console.log(event.target.value);
-    console.log(event.target.name);
+    // console.log(event.target.value);
+    // console.log(event.target.name);
     this.setState({
       [event.target.name]: event.target.value
     });
   };
 
   handleSubmit = (event) => {
-    console.log('Submitted');
+    // console.log('Submitted');
     event.preventDefault(); // stopping the page refresh
     // read the form data
     console.log(this.state);
     // send the above form data to the back end
     // 1. What's the Backend REST API URL? https://jsonplaceholder.typicode.com/users
     // 2. What's the Http Method? POST
-    // 3. What's the REST API Client Tool? Axios or Fetch
-
+    // 3. What's the REST API Client Tool? Axios or Fetch API
+    // Let's use axios -- so install it from npmjs.com  ===== npm i axios
+    axios
+      .post('https://jsonplaceholder.typicode.com/users', this.state)
+      .then((res) => {
+        // if success
+        console.log(res); // successful response
+        if (res.data && res.data.id) {
+          this.setState({
+            isSaved: true
+          });
+        }
+      })
+      .catch((err) => {
+        // if error
+        console.log(err);
+        this.setState({
+          isError: true
+        });
+      })
+      .finally(() => {
+        console.log('It is over!');
+      });
     // get the resp from the backend and display it it UI
   };
 
   handleSearch = (event) => {
     event.preventDefault(); // stopping the page refresh
     console.log(this.searchInput.current.value);
-  }
+  };
 
   render() {
     return (
@@ -99,13 +123,24 @@ export class ContactUsPage extends Component {
               <button type='submit' className='btn btn-primary'>
                 Send
               </button>
+              {this.state.isSaved ? (
+                <div className='alert alert-success'>Saved Successfully!</div>
+              ) : (
+                ''
+              )}
+
+              {this.state.isError ? (
+                <div className='alert alert-danger'>Some Error Occurred. Try again later!</div>
+              ) : (
+                ''
+              )}
             </form>
           </div>
         </div>
         <div className='row justify-content-center'>
           <h2>Uncontrolled Components Demo in form inputs</h2>
           <div className='col-md-4'>
-            <form onSubmit={this.handleSearch}>
+            <form onSubmit={this.searchQuery}>
               <div className='mb-3'>
                 <label htmlFor='searchInput' className='form-label'>
                   Search Query:
