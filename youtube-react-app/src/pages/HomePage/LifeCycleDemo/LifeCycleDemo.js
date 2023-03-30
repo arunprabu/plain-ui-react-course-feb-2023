@@ -71,6 +71,14 @@ class LifeCycleDemo extends Component {
     document.getElementById('myPara').style.color = 'green';
   }
 
+  componentWillUnmount() {
+    // Called immediately before a component is destroyed.
+    // this method will be called when the comp is going out of the view.
+    console.log('7. Inside componentWillUnmount');
+    // clean up the data
+    // remove timeout, remove interval
+  }
+
   render () {
     // this method will be called immediately after constructor i.e initial rendering
     console.log('=========2 & 5 Inside render() ======== ');

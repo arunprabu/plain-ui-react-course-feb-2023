@@ -10,6 +10,7 @@ import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import ContactUsPage from './pages/ContactUsPage/ContactUsPage';
 import ErrorBoundary from './containers/shared/ErrorBoundary/ErrorBoundary';
 import HocDemoPage from './pages/HocDemoPage/HocDemoPage';
+import HooksDemoPage from './pages/HooksDemoPage/HooksDemoPage';
 
 // Component
 function App () {
@@ -21,15 +22,16 @@ function App () {
       <BrowserRouter>
         <Header />
 
-        <main className="container mt-5 pt-3" id="mainSection">
+        <main className='container mt-5 pt-3' id='mainSection'>
           {/* configure the routes */}
           <ErrorBoundary>
             <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/video" element={<VideoPage />} />
-              <Route path="/hoc-demo" element={<HocDemoPage />} />
-              <Route path="/about-us" element={<AboutUsPage />} />
-              <Route path="/contact-us" element={<ContactUsPage />} />
+              <Route path='/' element={<HomePage />} />
+              <Route path='/video' element={<VideoPage />} />
+              <Route path='/hoc-demo' element={<HocDemoPage />} />
+              <Route path='/about-us' element={<AboutUsPage />} />
+              <Route path='/contact-us' element={<ContactUsPage />} />
+              <Route path='/hooks-demo' element={<HooksDemoPage />} />
             </Routes>
           </ErrorBoundary>
         </main>

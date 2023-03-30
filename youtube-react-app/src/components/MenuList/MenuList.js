@@ -28,6 +28,11 @@ const MenuList = (props) => {
       id: 5,
       title: 'Contact Us',
       url: '/contact-us'
+    },
+    {
+      id: 6,
+      title: 'Hooks Demo',
+      url: '/hooks-demo'
     }
   ];
 

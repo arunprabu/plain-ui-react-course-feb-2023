@@ -8,15 +8,15 @@ JS & ES2015
   Object [DONE]
   JSON [DONE]
   AJAX Calls [DONE]
-  Promise 
-  REST API Calls 
+  Promise [DONE]
+  REST API Calls [DONE]
     fetch 
   
-  Template Literal 
+  Template Literal [DONE]
 
   HTML5 JS API's 
     local storage 
-    session storage
+    session storage 
     Geolocation API 
 
   ES2015 
@@ -47,8 +47,8 @@ Features
     Enter City: [ ....  ] 
                 [Get Weather Info]
     
-    4. We will save the city in local storage. 
-    5. on load we'll fetch the city from local storage and fetch the weather info 
+    4. We will save the city in local storage. [TODO]
+    5. on load we'll fetch the city from local storage and fetch the weather info [TODO]
 
 ----
 
