@@ -78,7 +78,7 @@ Data Binding
       * have data in variable, display in JSX and update the data in variable
 
 -------------
-Sharing Data between components
+Sharing Data between components a.k.a Cross Component Communication 
 ---
   1. Parent to Child Component Communication [DONE]
       using Props
@@ -87,8 +87,8 @@ Sharing Data between components
       Using Props and Event Handler from Parent Comp
 
   3. Any to Any Component Communication 
-      Using Context API 
-      Using Redux / Flux / MobX 
+      => Using Context API 
+      => Using Redux / Flux / MobX 
 
 ====
 States [DONE]
@@ -122,9 +122,10 @@ REST API Calls  [DONE]
 Serving assets from local project folder 
 
 Hooks (8-12 hours)
-REST API Calls  
-  * from functional components 
-  * from class components 
+Context API 
+REST API Calls  [DONE]
+  * from functional components  [DONE]
+  * from class components [DONE]
 
 Unit Testing (25-30 hours)
 

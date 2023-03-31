@@ -1,4 +1,4 @@
-import React, { useReducer, useRef } from 'react';
+import React, { useEffect, useReducer, useRef } from 'react';
 import todoReducer from '../../../reducers/todoReducer';
 
 const TodosVariant2 = () => {
@@ -11,6 +11,24 @@ const TodosVariant2 = () => {
   console.log(todoDispatch); // fn to update the state data
   /// dispatch must be called with action.
 
+  useEffect(() => {
+    // ideal place for making rest api calls
+    fetch('https://jsonplaceholder.typicode.com/todos?_limit=5')
+      .then((res) => {
+        return res.json();
+      })
+      .then((todoItems) => {
+        console.log(todoItems);
+        todoDispatch({
+          type: 'LIST_TODOS',
+          payload: todoItems
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+
   const handleAddTodo = () => {
     console.log(todoInput.current.value); // entered input
     todoDispatch({
@@ -18,7 +36,7 @@ const TodosVariant2 = () => {
       payload: {
         id: Math.floor(Math.random() * 10000),
         title: todoInput.current.value,
-        isCompleted: false
+        completed: false
       }
     });
   };

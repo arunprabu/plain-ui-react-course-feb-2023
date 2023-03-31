@@ -12,6 +12,9 @@ const todoReducer = (state = [], action) => {
     case 'ADD_TODO':
       return [...state, action.payload];
 
+    case 'LIST_TODOS':
+      return action.payload;
+
     default:
       return state;
   }
