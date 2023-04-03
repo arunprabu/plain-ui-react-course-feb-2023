@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple-iPhone-13-pro-smartphone",
+      "description": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel.\n      Cinematic mode adds shallow depth of field and shifts focus automatically in your videos.", 
+      "imageUrl": "http://placehold.jp/3d4070/ffffff/600x600.png?text=Apple%20Iphone%2013%20pro%0A",
+      "thumbnailUrl": "http://placehold.jp/3d4070/ffffff/150x150.png?text=Apple%20Iphone%2013%20pro%0A",
+      "imgAltText": "Apple Iphone 13 Pro",
+      "maxRetailPrice": 84900,
+      "categories": [
+        {
+          "id": 1,
+          "name": "Clothing",
+          "subcategories": [
+            {
+              "id": 101,
+              "name": "Men"
+            }
+          ]
+        }
+      ],
+      "discountApplicable": 14,
+      "added": "4/9/2021",
+      "quantity": 30,
+      "bestSellerRanking": 2,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Apple-Macbook-Pro-M2",
+      "description": "Supercharged by M2 Pro or M2 Max, MacBook Pro takes its power and efficiency further than ever. It delivers exceptional performance whether it’s plugged in or not, and now has even longer battery life.",
+      "imageUrl": "http://placehold.jp/3d4070/ffffff/600x600.png?text=Apple%20MacBook%20Pro%20M2",
+      "thumbnailUrl": "http://placehold.jp/3d4070/ffffff/150x150.png?text=Apple%20MacBook%20Pro%20M2",
+      "imgAltText": "Apple-Macbook-Pro-M2",
+      "maxRetailPrice": 84900,
+      "categories": [
+        {
+          "id": 1,
+          "name": "Clothing",
+          "subcategories": [
+            {
+              "id": 101,
+              "name": "Women"
+            }
+          ]
+        }
+      ],
+      "discountApplicable": 14,
+      "added": "4/9/2021",
+      "quantity": 30,
+      "bestSellerRanking": 2,
+      "featured": true
+    }
+  ],    
+  "categories": [
+    {
+      "id": 1,
+      "name": "Clothing",
+      "subcategories": [
+        {
+          "id": 101,
+          "name": "Men"
+        },
+        {
+          "id": 102,
+          "name": "Women"
+        },
+        {
+          "id": 103,
+          "name": "Kids"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Books",
+      "subcategories": [
+        {
+          "id": 111,
+          "name": "Novels"
+        },
+        {
+          "id": 112,
+          "name": "Self-Help"
+        }
+      ]
+    }
+  ],
+  "contactData": {
+    "address": "280 ParK Avenue Z,Cross cut Complex, Bangalore, India",
+    "phone": [
+      "(91) 987 654 3210",
+      "(91) 987 654 3211"
+    ],
+    "email": "contact@sparkclothing.com"
+  },
+  "getInTouchData": [
+    {
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "phone": "3333333123",
+      "message": "Awesome website",
+      "id": 1
+    }
+  ]
+}
