@@ -119,10 +119,10 @@ Forms (1.5 hours) [DONE]
 REST API Calls  [DONE]
   Submitting the form data to backend 
 
-Serving assets from local project folder 
+Serving assets from local project folder [DONE]
 
-Hooks (8-12 hours)
-Context API 
+Hooks (8-12 hours) [DONE]
+Context API [DONE]
 REST API Calls  [DONE]
   * from functional components  [DONE]
   * from class components [DONE]
@@ -374,3 +374,145 @@ Rules of Hooks
   Refer: 
   https://reactjs.org/docs/hooks-rules.html
 
+Software Development LifyCycle 
+------------------------------
+  Calculator App
+  --------------
+    Analysing Requirements (1m)
+      Design (.5m)
+        Development (6m)
+          Testing (1.5m) 
+            Deployment (.25m)
+              Maintenance (for years)
+
+-------------
+Dev => QA => (bugs) => Dev => QA => (bugs) => Dev => QA => (bugs) => Dev => QA => (QA CERTIFY) => Deployment
+
+===========
+
+Requirements for calc app 
+---
+  Sources:
+  ----
+    FRD
+    HLD
+    LLD
+    Designs 
+    Style Guides
+
+  ----
+  Development -- Sources: FRD, Designs
+  ----
+    Test Cases
+    ------------
+      1. inputs should be of number [PASSED]
+      2. o/p should always be a number [PASSED]
+      3. if invalid inputs entered add btn should be disabled [PASSED]
+      4. add button should have + icon [PASSED]
+      5. add button should have the lable 'ADD' in all caps. [PASSED]
+
+    function add(a, b) {
+      if(typeof a === 'number' && typeof b === 'number' ){
+        return a + b;
+      }
+    }
+
+    add(10, 20); // 30 
+    add("10", "20"); 
+    add(true, 20);
+    add("$$$$", "%%%%");  
+
+   [ Tools to Compare the test cases and app's functionality code ]
+
+-----
+  
+Modern Software Development Approaches 
+----
+  1. Test-Driven Development (TDD) [TO LEARN]
+      * Write NEW CODE only if automated test fails 
+
+      Dev writes Test Cases => (FAILURE) => Dev writes Functionality => (SUCCESS) => [CODE COMPLETE]
+
+      Test Patten: AAA (Arrange, Act, Assert)
+      Tools: JEST JS
+
+  2. Behavior-Driven Development (BDD) 
+      * an agile s/w methodology
+      * app is documented, designed around the behaviour the end user wants to experience 
+        when interacting with the app. 
+      
+      Dev writes Test Cases around the behaviour of the app => (FAILURE) => Dev writes Functionality => (SUCCESS) => [CODE COMPLETE]
+
+      Test Pattern: Given/When/Then
+      Tools: Jasmine JS
+
+
+Automated Testing
+---
+  Levels
+    0. Static Type Checking [DONE]
+        Examples: TypeScript or FlowJS or PropTypes
+
+    1. Unit Testing [TO LEARN]
+        * Testing tiny, independent unit of our code.
+        * Testing the component in isolation (without connecting with REST API)
+        * Bug Reduction Density: 40-80% 
+
+        Tools: 
+        ------
+          JEST JS (Unit Testing Framework + Test Runner)
+          React Testing Library (RTL)
+
+    2. Integration Testing 
+        * Testing the component by integrating multiple components together 
+        * Testing the component with Service Calls (REST API Calls)
+
+        Tools:
+        ------
+          JEST JS (Unit Testing Framework + Test Runner)
+          React Testing Library (RTL)
+
+
+    3. End To End Testing 
+        * Testing the whole app as one entity
+        * will be done by QA team members.
+
+        Tools: 
+        -----
+          * Selenium 
+          * CypressJS 
+          * Protractor 
+
+Tools for Unit Testing a React App
+------------
+  1. JEST JS (Unit Testing Framework + Test Runner)
+  2. React Testing Library (RTL) - Testing utility for DOM Querying 
+
+==========
+  1. How to write test cases?
+  2. Where to write the test cases?
+  3. How to test the app by tools? 
+----------
+
+Unit Testing Topics 
+==================
+  0. File walkthru 
+  1. Testing JSX Elements 
+      * getByText 
+      * 
+  2. Testing Props 
+  3. Testing inline CSS 
+  4. Testing External CSS (CSS class) 
+  5. Testing Events & States 
+  6. Testing Events with Buttons 
+  7. Snapshot Testing 
+  8. Testing Forms [TODO]
+  9. Testing REST API Calls 
+      * with mocks 
+      * with spies 
+      * negative test 
+  10. Testing Roting [TODO]
+  11. Setup and Tear Down 
+  12. Code Coverage 
+
+---------------

@@ -6,6 +6,7 @@ import HomePage from '../../pages/HomePage/HomePage';
 import HooksDemoPage from '../../pages/HooksDemoPage/HooksDemoPage';
 import ShopPage from '../../pages/ShopPage/ShopPage';
 import VideoPage from '../../pages/VideoPage/VideoPage';
+import UnitTestingDemoPage from '../../pages/UnitTestingDemoPage/UnitTestingDemoPage';
 
 const AppRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
       <Route path='/contact-us' element={<ContactUsPage />} />
       <Route path='/hooks-demo' element={<HooksDemoPage />} />
       <Route path='/shop' element={<ShopPage />} />
+      <Route path='/unit-testing-demo' element={<UnitTestingDemoPage />} />
     </Routes>
   );
 };

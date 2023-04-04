@@ -45,6 +45,7 @@ function App () {
           <Header />
 
           <main className='container mt-5 pt-3' id='mainSection'>
+            <h1>Success!</h1>
             {/* configure the routes */}
             <ErrorBoundary>
               {/* Step 2 of Context API -- providing data thru context */}
