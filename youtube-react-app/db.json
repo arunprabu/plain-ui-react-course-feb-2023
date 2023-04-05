@@ -14,7 +14,16 @@
       "quantity": 30,
       "bestSellerRanking": 2,
       "featured": true,
-      "reviews": []
+      "reviews": [
+        {
+          "id": 1002,
+          "name": "Kevin",
+          "email": "k@l.com",
+          "phone": "97654663",
+          "comment": "amazing!",
+          "rating": 4
+        }
+      ]
     },
     {
       "id": 2,
@@ -23,13 +32,14 @@
       "imageUrl": "http://placehold.jp/3d4070/ffffff/600x600.png?text=Apple%20MacBook%20Pro%20M2",
       "thumbnailUrl": "http://placehold.jp/3d4070/ffffff/150x150.png?text=Apple%20MacBook%20Pro%20M2",
       "imgAltText": "Apple-Macbook-Pro-M2",
-      "maxRetailPrice": 84900,
+      "maxRetailPrice": 199999,
       "category": "Women",
       "discountApplicable": 14,
       "added": "4/9/2021",
       "quantity": 30,
-      "bestSellerRanking": 2,
-      "featured": true
+      "bestSellerRanking": 3,
+      "featured": true,
+      "reviews": []
     }
   ],
   "categories": [

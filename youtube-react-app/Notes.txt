@@ -498,20 +498,23 @@ Unit Testing Topics
 ==================
   0. File walkthru 
   1. Testing JSX Elements 
-      * getByText 
-      * 
-  2. Testing Props 
-  3. Testing inline CSS 
-  4. Testing External CSS (CSS class) 
-  5. Testing Events & States 
-  6. Testing Events with Buttons 
-  7. Snapshot Testing 
+      * getByText [DONE]
+      * getByTestId [DONE]
+      * ..
+  2. Testing Props [DONE]
+  3. Testing inline CSS [DONE]
+  4. Testing External CSS (CSS class) [DONE]
+  5. Testing Events & States [DONE]
+  6. Testing Events with Buttons [DONE]
+  7. Snapshot Testing [DONE]
   8. Testing Forms [TODO]
+      Ref: ContactUsPage.js and ContactUsPage.test.js 
+      
   9. Testing REST API Calls 
       * with mocks 
       * with spies 
       * negative test 
-  10. Testing Roting [TODO]
+  10. Testing Routing [TODO]
   11. Setup and Tear Down 
   12. Code Coverage 
 
