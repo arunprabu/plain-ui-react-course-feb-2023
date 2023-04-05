@@ -14,6 +14,9 @@ const UnitTestingDemoPage = () => {
 
       <hr/>
       <Counter />
+
+      <hr/>
+      <h4>Note: For Testing Forms -- Refer ContactUsPage.test.js</h4>
     </div>
   );
 }
