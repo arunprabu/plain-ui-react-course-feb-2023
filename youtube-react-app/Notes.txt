@@ -127,7 +127,7 @@ REST API Calls  [DONE]
   * from functional components  [DONE]
   * from class components [DONE]
 
-Unit Testing (25-30 hours)
+Unit Testing (25-30 hours) [DONE]
 
 Build and Deployment (1 hour)
 --
@@ -513,10 +513,39 @@ Unit Testing Topics
 
   9. Testing REST API Calls 
       * with mocks [DONE]
-      * with spies 
-      * negative test 
+        1. using fetch [DONE]
+        2. using axios [TODO]
+      * with spies [DONE]
+      * negative test [DONE]
   10. Testing Routing [TODO]
-  11. Setup and Tear Down 
+  11. Setup and Tear Down [DONE]
   12. Code Coverage 
 
 ---------------
+
+===
+====
+Capstone Project Submission Checklist 
+---
+  1. 0 linting errors 
+  2. properly formatted code 
+  3. code comments (20%)
+  4. proper naming, coding conventions 
+  5. keep minimal console.logs 
+  6. 0 console errors 
+  7. 0 console warnings 
+  8. 80% code coverage [Will explain on Friday]
+  9. functionalities fully working 
+  10. lazy loading implemented (for at least 1 page)  [Will explain on Friday]
+---
+
+on Friday
+---------
+  How to take a build and submit the project?
+    1. Generate code coverage report 
+        npm run test -- --coverage --watchAll
+    2. Generate build 
+        npm run build 
+    3. Zip your entire project without node_modules 
+    4. Upload in the given location 
+    5. Send a mail to Akshata 
