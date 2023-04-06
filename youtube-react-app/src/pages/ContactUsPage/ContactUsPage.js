@@ -120,7 +120,11 @@ export class ContactUsPage extends Component {
                   onChange={this.handleChange}
                 />
               </div>
-              <button type='submit' className='btn btn-primary' data-testid='submitBtn'>
+              <button
+                type='submit'
+                className='btn btn-primary'
+                data-testid='submitBtn'
+                disabled={this.state.fullName === ''}>
                 Send
               </button>
               {this.state.isSaved ? (

@@ -507,11 +507,12 @@ Unit Testing Topics
   5. Testing Events & States [DONE]
   6. Testing Events with Buttons [DONE]
   7. Snapshot Testing [DONE]
-  8. Testing Forms [TODO]
+  8. Testing Forms [DONE]
       Ref: ContactUsPage.js and ContactUsPage.test.js 
-      
+      Validate the form 
+
   9. Testing REST API Calls 
-      * with mocks 
+      * with mocks [DONE]
       * with spies 
       * negative test 
   10. Testing Routing [TODO]
