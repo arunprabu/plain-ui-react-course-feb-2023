@@ -536,7 +536,7 @@ React Capstone Project Submission Checklist
   7. 0 console warnings 
   8. 80% code coverage
   9. functionalities fully working
-  10. lazy loading implemented (for at least 1 page)  [Will explain on Friday]
+  10. lazy loading implemented (for at least 1 page)
   11. zero tolerance over plagiarised code
 ---
 
