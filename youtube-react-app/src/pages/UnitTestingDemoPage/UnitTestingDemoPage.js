@@ -6,7 +6,7 @@ import Posts from './Posts/Posts';
 
 const UnitTestingDemoPage = () => {
   return (
-    <div>
+    <>
       <h1>Unit Testing Examples</h1>
       <a
         href='https://17.reactjs.org/docs/testing.html'>Unit Testing Reference</a>
@@ -25,7 +25,7 @@ const UnitTestingDemoPage = () => {
 
       <hr/>
       <Posts/>
-    </div>
+    </>
   );
 }
 

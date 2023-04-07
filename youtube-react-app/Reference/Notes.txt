@@ -87,7 +87,7 @@ Sharing Data between components a.k.a Cross Component Communication
       Using Props and Event Handler from Parent Comp
 
   3. Any to Any Component Communication 
-      => Using Context API 
+      => Using Context API [DONE]
       => Using Redux / Flux / MobX 
 
 ====
@@ -131,8 +131,8 @@ Unit Testing (25-30 hours) [DONE]
 
 Build and Deployment (1 hour)
 --
-  Lazy Loading 
-  Performance 
+  Lazy Loading [DONE]
+  Performance [DONE]
 
 Redux (10-12 hours)
 
