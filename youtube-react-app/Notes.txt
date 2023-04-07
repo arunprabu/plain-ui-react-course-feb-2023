@@ -525,27 +525,28 @@ Unit Testing Topics
 
 ===
 ====
-Capstone Project Submission Checklist 
+React Capstone Project Submission Checklist 
 ---
   1. 0 linting errors 
-  2. properly formatted code 
+  2. properly formatted code
   3. code comments (20%)
   4. proper naming, coding conventions 
-  5. keep minimal console.logs 
+  5. keep minimal console.logs
   6. 0 console errors 
   7. 0 console warnings 
-  8. 80% code coverage [Will explain on Friday]
-  9. functionalities fully working 
+  8. 80% code coverage
+  9. functionalities fully working
   10. lazy loading implemented (for at least 1 page)  [Will explain on Friday]
+  11. zero tolerance over plagiarised code
 ---
 
-on Friday
----------
-  How to take a build and submit the project?
-    1. Generate code coverage report 
-        npm run test -- --coverage --watchAll
-    2. Generate build 
-        npm run build 
-    3. Zip your entire project without node_modules 
-    4. Upload in the given location 
-    5. Send a mail to Akshata 
+How to take a build and submit the project?
+  1. Generate code coverage report 
+      npm run coverage 
+      (refer package.json file of course project for necessary changes)
+  2. Generate build 
+      npm run build 
+  3. Zip your entire project without node_modules 
+  4. Rename the zip file to spark-clothing-react-capstone-app-<name>.zip 
+  4. Upload in the given location 
+  5. Send a mail to Akshata 
