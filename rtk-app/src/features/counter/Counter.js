@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+
+// importing 2 hooks from react-redux 
 import { useSelector, useDispatch } from 'react-redux';
+
 import {
   decrement,
   increment,
@@ -11,7 +14,9 @@ import {
 import styles from './Counter.module.css';
 
 export function Counter() {
+  // to subscribe to the store data you must use useSelector
   const count = useSelector(selectCount);
+  // to update the store data -- you must use useDispatch
   const dispatch = useDispatch();
   const [incrementAmount, setIncrementAmount] = useState('2');
 
@@ -27,6 +32,7 @@ export function Counter() {
         >
           -
         </button>
+        {/* Displaying the counter value here */}
         <span className={styles.value}>{count}</span>
         <button
           className={styles.button}

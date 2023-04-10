@@ -1,3 +1,4 @@
+// slice = reducer + redux thunk middleware integration
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { fetchCount } from './counterAPI';
 

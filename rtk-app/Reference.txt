@@ -1,0 +1,5 @@
+Create Redux toolkit based project
+  npx create-react-app rtl-app --template redux 
+
+--------
+
